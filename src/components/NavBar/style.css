@@ -1,0 +1,27 @@
+.navbar-nav {
+  --bs-nav-link-color: black;
+  --bs-nav-link-hover-color: #5d5225;
+  --bs-nav-link-disabled-color: none;
+}
+
+.btn-primary {
+  color: black;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: none;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #a79241;
+  --bs-btn-hover-border-color: #a79241;
+  --bs-btn-focus-shadow-rgb: none;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #5d5225;
+  --bs-btn-active-border-color: #5d5225;
+  --bs-btn-active-shadow: none;
+  --bs-btn-disabled-color: none;
+  --bs-btn-disabled-bg: none;
+  --bs-btn-disabled-border-color: none;
+}
+
+.btn {
+  --bs-btn-border-radius: 0;
+}

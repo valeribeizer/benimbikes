@@ -1,0 +1,17 @@
+.aboutInfoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bike_chain_img {
+  width: 25%;
+  object-fit: contain;
+  margin-right: -6%;
+}
+
+.aboutInfoContainer p {
+  width: 60%;
+  text-align: justify;
+}

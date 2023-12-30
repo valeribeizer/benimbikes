@@ -1,0 +1,42 @@
+.ourServicesContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 13%;
+}
+
+.ourServicesContainer img {
+  width: 35%;
+  object-fit: contain;
+}
+
+.infoOurServices {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.infoOurServices p {
+  text-align: justify;
+}
+
+.accordion {
+  --bs-accordion-bg: none;
+  --bs-accordion-border-width: none;
+  --bs-accordion-border-radius: none;
+  --bs-accordion-inner-border-radius: none;
+  --bs-accordion-btn-padding-x: none;
+  --bs-accordion-btn-padding-y: none;
+  --bs-accordion-btn-color: none;
+  --bs-accordion-btn-bg: none;
+}
+
+.accordion-item h2 {
+  padding: 20px 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.accordion-body {
+  font-size: 14px;
+}

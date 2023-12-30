@@ -1,0 +1,32 @@
+.iconsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: flex-end;
+}
+
+.mainInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 0 100px 200px;
+}
+
+.main_photo {
+  width: 70%;
+}
+
+.main_p {
+  text-align: center;
+  width: 80%;
+}
+
+.main_icons {
+  width: 30px;
+}
+
+.main_icons:hover {
+  opacity: 0.6;
+}

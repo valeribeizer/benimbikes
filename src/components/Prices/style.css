@@ -1,0 +1,27 @@
+.pricesContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+  align-items: center;
+}
+
+.pricesContainer img {
+  width: 30%;
+  object-fit: contain;
+  margin-right: -6%;
+}
+
+.infoPricesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.infoPricesContainer p {
+  text-align: justify;
+}
+
+.infoPricesContainer Button {
+  width: 40%;
+}

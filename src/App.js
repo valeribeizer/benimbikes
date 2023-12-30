@@ -6,6 +6,7 @@ import OurServices from "./components/OurServices/OurServices";
 import Prices from "./components/Prices/Prices";
 import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
+import './main.css';
 
 function App() {
   return (

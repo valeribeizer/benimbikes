@@ -1,4 +1,5 @@
 .navbar-nav {
+  gap: 50px;
   --bs-nav-link-color: black;
   --bs-nav-link-hover-color: #5d5225;
   --bs-nav-link-disabled-color: none;
@@ -24,4 +25,14 @@
 
 .btn {
   --bs-btn-border-radius: 0;
+}
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    gap: 10px;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
 }

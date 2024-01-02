@@ -1,9 +1,16 @@
 import React from "react";
+import "animate.css";
 import "./style.css";
 
 const HomeScreen = () => {
   return (
-    <div className="container">
+    <div
+      id="home"
+      className="container animate__animated animate__fadeIn"
+      style={{
+        animationDuration: "4000ms",
+      }}
+    >
       <div className="iconsContainer">
         <a href="https://www.instagram.com/benimbikes/">
           <img className="main_icons" src="insta_icon.png" alt="insta" />

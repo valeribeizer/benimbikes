@@ -1,3 +1,10 @@
+.prices {
+  flex-direction: column !important;
+  margin-top: 40px !important;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
 .pricesContainer {
   display: flex;
   flex-direction: row;
@@ -8,7 +15,7 @@
 .pricesContainer img {
   width: 30%;
   object-fit: contain;
-  margin-right: -6%;
+  margin-right: -60px;
 }
 
 .infoPricesContainer {
@@ -24,4 +31,20 @@
 
 .infoPricesContainer Button {
   width: 40%;
+}
+
+@media (max-width: 576px) {
+  .pricesContainer {
+    flex-direction: column;
+    margin: 0 40px 0 18px;
+  }
+
+  .pricesContainer img {
+    width: 50%;
+    margin: 50px -230px 0 0;
+  }
+
+  .infoPricesContainer Button {
+    width: 100%;
+  }
 }

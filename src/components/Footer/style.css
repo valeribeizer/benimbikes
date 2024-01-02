@@ -1,0 +1,17 @@
+.iconsContainerFooter {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.container p {
+    margin-top: 2%;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    flex-direction: column !important;
+    margin-bottom: 20px !important;
+  }
+}

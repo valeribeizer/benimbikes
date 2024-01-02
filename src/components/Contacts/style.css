@@ -1,0 +1,23 @@
+.infoContactsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+  align-items: center;
+  margin-right: 7%;
+}
+
+.infoContactsContainer p {
+  text-align: justify;
+}
+
+.phoneEmailContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 576px) {
+  .infoContactsContainer {
+    flex-direction: column;
+    margin-left: 5%;
+  }
+}

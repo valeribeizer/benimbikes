@@ -4,6 +4,8 @@ import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import "./style.css";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <AnimatedOnScroll
       animationIn="fadeInUp"
@@ -40,6 +42,10 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <p className="p-footer">
+        {currentYear}. All rights reserved | Designed and built with 🖤 by
+        Valeryia Beizer
+      </p>
     </AnimatedOnScroll>
   );
 };
